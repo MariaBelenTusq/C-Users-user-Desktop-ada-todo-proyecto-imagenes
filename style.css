@@ -1,0 +1,391 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+header {
+    display:flex;
+    min-height: 90px;
+    background-color: whitesmoke;
+    justify-content:space-around;
+    align-items:center;
+    padding: 1px;
+    width: 1665px;
+    position:fixed;
+    z-index: 10;
+   
+   
+
+}
+
+.nombre-de-la-empresa {
+  color:#f041b6 ;
+    font-size: 30px;
+    margin-left:-20px;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight:bolder;
+    padding-right: 7px;
+    margin: 5px;
+    margin-right: 30px;
+}
+
+nav a:hover {
+    color: rgb(208, 9, 165);
+}
+
+
+
+.imagen1 {
+    width: 1800px;
+    height: 900px;
+    position:relative;
+    filter: brightness(0.6);
+  
+
+
+}
+
+.boton {
+    padding: 0.8rem 3rem;
+    position: absolute;
+    top: 75%;
+    left: 45%;
+    border: 2px transparent;
+    color: white;
+    font-weight: bold;
+    background:  linear-gradient(340deg, #ff8cc5 0, #ff7ec6 16.67%, #ff6bc3 33.33%, #f253bc 50%, #d73bb6 66.67%, #bd2bb4 83.33%, #a626b6 100%);
+    text-decoration: none;
+    
+}
+
+.caja1 {
+    position: relative;
+}
+
+#titulo {
+    font-size: 90px;
+    color: white;
+    position:absolute;
+    top: 25%;
+    left: 20%;
+    display: flex;
+    text-align: center;
+}
+
+strong {
+    color: rgb(236, 79, 202);
+}
+
+.seccion2 {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+}
+
+.imagen2 {
+    position:relative ;
+    width: 300px;
+    height: 380px;
+    left: 350px;
+    top: 200px;
+    bottom: 200px;
+    object-fit: cover;
+    
+}
+
+.caja2 {
+    position: relative;
+}
+
+.caja3 {
+    position: relative;
+    left: 450px;
+    top: 250px;
+}
+
+h2 {
+    font-size: 45px;
+
+}
+.seccion3 {
+    background-color: rgb(34, 32, 32);
+    position: relative;
+    top: 700px;
+    left: 10px;
+    width: 1800px;
+}
+
+#titulo2 {
+    justify-content:center;
+    text-align:center;
+    color: white;
+    font-size: 70px;
+    padding: 70px;
+    top: 30px;
+    left: 300px;
+
+    
+
+}
+
+.programas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.menu1 {
+    background-color: rgb(55, 57, 59);
+    position: relative;
+    margin: 30px;
+    bottom: 60px;
+    width: 320px;
+    height: 350px;
+    left: 225px;
+    border-radius: 00.5rem;
+}
+
+.imagen3 {
+    position: relative;
+    border-start-end-radius: 00.20rem;
+    border-top-left-radius: 00.3rem;
+    filter: brightness(0.6);
+    left: 1px;
+    top: 2px;
+}
+
+#menuA {
+    position: absolute;
+    left: 70px;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    top: 40px;
+}
+
+#parrafo1 {
+
+    text-align:center;
+    color: white;
+}
+
+.menu2 {
+    background-color:  rgb(55, 57, 59);
+    position: relative;
+    margin: 30px;
+    bottom: 60px;
+    width: 320px;
+    height: 350px;
+    left: -30px;
+    border-radius: 00.5rem;
+}
+
+.imagen4 {
+    position: relative;
+    border-start-end-radius: 00.20rem;
+    border-top-left-radius: 00.3rem;
+    filter: brightness(0.6);
+    left: 1px;
+    top: 2px;
+}
+
+#menuB {
+    position: absolute;
+    left: 70px;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    top: 40px;
+}
+
+#parrafo2 {
+    text-align: center;
+    color: white;
+}
+
+.menu3 {
+
+    background-color:  rgb(55, 57, 59);
+    position: relative;
+    margin: 30px;
+    bottom: 60px;
+    width: 320px;
+    height: 350px;
+    left: -280px;
+    border-radius: 00.5rem;
+}
+
+.imagen5 {
+    position: relative;
+    border-start-end-radius: 00.20rem;
+    border-top-left-radius: 00.3rem;
+    filter: brightness(0.6);
+    left: 1px;
+    top: 2px;
+}
+
+#menuC {
+    position: absolute;
+    left: 70px;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    top: 40px;
+}
+
+#parrafo3 {
+    text-align: center;
+    color: white;
+}
+
+#boton1 {
+    bottom: 20px;
+    position: absolute;
+    left: 130px;
+    padding: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    border: transparent;
+    text-align: center;
+    background-color: rgb(208, 9, 165);
+    box-shadow: rgb(45, 44, 45) 0px 2px 2px 0px;
+}
+
+#boton3 {
+    bottom: 20px;
+    position: absolute;
+    left: 130px;
+    padding: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    border: transparent;
+    text-align: center;
+    background-color: rgb(208, 9, 165);
+    box-shadow: rgb(45, 44, 45) 0px 2px 2px 0px;
+}
+
+#boton2 {
+    bottom: 20px;
+    position: absolute;
+    left: 130px;
+    padding: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    border: transparent;
+    text-align: center;
+    background-color: rgb(208, 9, 165);
+    box-shadow: rgb(45, 44, 45) 0px 2px 2px 0px;
+}
+
+.seccion4 {
+
+    position: relative;
+    top: 750px;
+}
+
+.contenedor2 {
+
+    display: flex;
+    flex-direction: row;
+}
+
+#imagen1-seccion4 {
+    position: absolute;
+    right: 340px;
+    top: 15px;
+}
+
+.contenedor2 ol li {
+    position: relative;
+    left: 300px;
+    margin: 7px;
+    font-weight: bold;
+    top: 90px;
+    font-size: 20px;
+}
+
+li {
+   
+    list-style-position:inside;
+    list-style-image: url(imagenes/correcto.png) 
+    
+}
+
+.seccion5 {
+    background:  linear-gradient(135deg, #ff9d9c 0, #ff919d 12.5%, #ff859b 25%, #f47997 37.5%, #d86c8f 50%, #bd6086 62.5%, #a4567d 75%, #8e4d74 87.5%, #7c466d 100%);
+    position: relative;
+    top: 1000px;
+    width: 1800px;
+    height: 500px;
+}
+
+.contenedor5 {
+    position: relative;
+
+}
+
+#texto1 {
+    position: absolute;
+    top: 100px;
+    left: 400px;
+    text-align: center;
+    font-size: 70px;
+    color: white;
+
+}
+
+#boton5 {
+    padding: 0.5rem 1rem;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    border: 2px  rgb(170, 8, 135) solid;
+    text-decoration: none;
+    position: relative;
+    left: 670px;
+    top: 300px;
+    box-shadow: rgb(45, 44, 45) 0px 2px 2px 0px;
+    background-image: linear-gradient(195deg, #ff8ec4 0, #ff81c6 16.67%, #ff6dc3 33.33%, #f253bc 50%, #d43ab6 66.67%, #b92ab4 83.33%, #a026b7 100%);
+}
+
+footer {
+    position: relative;
+    top: 800px;
+    margin: 50px;
+
+}
+
+#autor {
+    position:relative;
+    text-align:end;
+    font-size: 20px;
+    font-family: 'Island Moments';
+left: 10px;
+top: 80px
+}
+
+
+/* Cuando la pantalla es mayor a 900px */
+@media only screen and (min-width : 901px) {
+   
+    }
+    
+    /* Cuando la pantalla es menor a 900px  (tablets y teléfonos inteligentes)*/
+    @media only screen and (max-width : 900px) {
+
+    }
+   /* Ordenadores de sobremesa y portátiles */
+@media only screen and (min-width : 1224px) {
+
+   }
+    
+   /* Pantallas grandes */
+   @media only screen and (min-width : 1824px) {
+
+   }
